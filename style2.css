@@ -1,0 +1,52 @@
+
+.outfit-<uniquifier> {
+    font-family: "Outfit", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d6e1f0;
+}
+
+.container{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    align-items: center;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.QR{
+    width: 250px;
+    /* position: relative;
+    top: 8%;
+    z-index: -1; */
+    border-radius: 15px;
+    margin: 20px 0 20px 0;
+}
+
+.text {
+    text-align: center;
+    font-family: "Outfit", serif;
+    color: hsl(218, 44%, 22%);
+}
+
+.bigger {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
